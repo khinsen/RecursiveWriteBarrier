@@ -4,7 +4,7 @@ Recursive versions of `Object>>beReadOnlyObject`, `Object>>beWritableObject`, an
 To install in Pharo 7, execute the following lines in a playground:
 ```
 Metacello new
-    baseline: 'Leibniz';
+    baseline: 'RecursiveWriteBarrier';
     repository: 'github://khinsen/RecursiveWriteBarrier/src';
     load.
 ```
